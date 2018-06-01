@@ -1,6 +1,8 @@
 # HEAD
 
 -   Added: `keyframes-name-pattern` rule ([#3321](https://github.com/stylelint/stylelint/pull/3321)).
+-   Fixed: throws error when .vue files have `<style lang="stylus">` and `<style lang="postcss">`([#3331](https://github.com/stylelint/stylelint/pull/3331))
+-   Fixed: `no-empty-source` false positives on vue external source `<style src="*">` tag ([#3331](https://github.com/stylelint/stylelint/pull/3331))
 
 # 9.2.1
 
